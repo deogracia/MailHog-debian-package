@@ -1,16 +1,10 @@
-Section: Utilities
-Priority: extra
-Maintainer: Lionel Félicité <deogracia@free.fr>
-Build-Depends: debhelper (>= 8.0.0)
-Standards-Version: 3.9.2
-Homepage: https://github.com/mailhog/MailHog
-Vcs-Git: https://github.com/mailhog/MailHog.git
-Vcs-Browser: https://github.com/mailhog/MailHog
-
 Package: mailhog
 Version: 0.1.6-1
+Section: Utilities
+Priority: extra
 Architecture: amd64
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Maintainer: Lionel Félicité <deogracia@free.fr>
+Homepage: https://github.com/mailhog/MailHog
 Description: Web and API based SMTP testing
  Inspired by MailCatcher, easier to install.
  Built with Go - MailHog runs without installation on multiple platforms.
