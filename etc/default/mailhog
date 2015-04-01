@@ -17,7 +17,7 @@ MAILHOG_API_HOST=""
 MAILHOG_CORS_ORIGIN=""
 
 #  -hostname="mailhog.example": Hostname for EHLO/HELO response, e.g. mailhog.example
-MAILHOG_HOSTNAME='""mailhog.example"
+MAILHOG_HOSTNAME="mailhog.example"
 
 #  -invite-jim=false: Decide whether to invite Jim (beware, he causes trouble)
 MAILHOG_INVITE_JIM="false"
