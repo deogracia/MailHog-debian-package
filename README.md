@@ -2,8 +2,9 @@
 
 I try to package https://github.com/mailhog/MailHog to Debian/Ubuntu OS
 
-## Build
+## Build instructions
 
+```
 git clone https://github.com/deogracia/MailHog-debian-package
 cd MailHog-debian-package
 mkdir -p package/usr/sbin
@@ -16,3 +17,4 @@ cd ../../..
 dpkg-deb --build package
 
 mv package.deb mailhog-VERSION-amd64.deb
+```
