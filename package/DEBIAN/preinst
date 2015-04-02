@@ -17,7 +17,7 @@ set -e
 case "$1" in
     install|upgrade)
       if [ $2 ]; then
-        /usr/sbin/invoke-rc.d mailhog stop || true
+        invoke-rc.d mailhog stop || true
       fi
     ;;
 

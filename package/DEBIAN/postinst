@@ -33,7 +33,7 @@ esac
 
 if [ $2 ]; then
   if [ -x /usr/sbin/invoke-rc.d ]; then
-    /usr/sbin/invoke-rc.d mailhog start || true
+    invoke-rc.d mailhog start || true
   else
     /etc/init.d/mailhog start || true
   fi
