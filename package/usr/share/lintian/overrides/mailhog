@@ -1,0 +1,6 @@
+# golang binaries can't be stripped
+# https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=717172
+mailhog binary: unstripped-binary-or-object
+
+# til I create the package from upstream source
+mailhog binary: statically-linked-binary

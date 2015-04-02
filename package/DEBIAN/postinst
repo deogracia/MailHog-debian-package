@@ -31,6 +31,10 @@ case "$1" in
     ;;
 esac
 
+# create symlink mailhog -> malhog-static
+# until I create from upsstream source
+ln -s /usr/sbin/mailhog-static /usr/sbin/mailhog
+
 if [ -x /usr/sbin/update-rc.d ]; then
   update-rc.d mailhog defaults || true
 fi
