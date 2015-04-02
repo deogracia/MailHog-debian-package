@@ -15,7 +15,7 @@ chmod 755 package/usr/sbin
 cd package/usr/sbin
 wget https://github.com/mailhog/MailHog/releases/download/v0.1.6/MailHog_linux_amd64
 mv MailHog_linux_amd64 mailhog
-chmod +x mailhog
+chmod 755 mailhog
 cd ../../..
 
 fakeroot dpkg-deb --build package
