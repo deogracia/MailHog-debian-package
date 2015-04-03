@@ -17,6 +17,7 @@ wget https://github.com/mailhog/MailHog/releases/download/v0.1.6/MailHog_linux_a
 mv MailHog_linux_amd64 mailhog
 chmod 755 mailhog
 cd ../../..
+bash restore-permission.bash
 
 fakeroot dpkg-deb --build package
 
