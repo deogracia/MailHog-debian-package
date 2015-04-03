@@ -1,6 +1,6 @@
 Package: mailhog
 Version: 0.1.6-1
-Section: Utilities
+Section: utils
 Priority: extra
 Architecture: amd64
 Maintainer: Lionel Félicité <deogracia@free.fr>
