@@ -27,4 +27,4 @@ mv package.deb mailhog-VERSION-amd64.deb
 ## Known errors
 
 ### Lintian
-* `new-package-should-close-itp-bug` `: ignored
+* `new-package-should-close-itp-bug` : ignored
