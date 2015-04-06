@@ -3,6 +3,7 @@ Version: 0.1.6-1
 Section: utils
 Priority: extra
 Architecture: amd64
+Pre-Depends: adduser, daemon (>= 0.6.4)
 Maintainer: Lionel Félicité <deogracia@free.fr>
 Homepage: https://github.com/mailhog/MailHog
 Description: Web and API based SMTP testing
