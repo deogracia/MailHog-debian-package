@@ -7,6 +7,7 @@ chmod 644 package/DEBIAN/conffiles
 chmod 755 package/DEBIAN/postinst
 chmod 755 package/DEBIAN/postrm
 chmod 755 package/DEBIAN/preinst
+chmod 755 package/DEBIAN/prerm
 chmod 755 package/etc/
 chmod 755 package/etc/default/
 chmod 644 package/etc/default/mailhog
