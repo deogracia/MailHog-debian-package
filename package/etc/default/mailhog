@@ -50,10 +50,10 @@ MAILHOG_JIM_REJECT_SENDER="0.05"
 MAILHOG_MONGO_COLL="messages"
 
 #  -mongo-db="mailhog": MongoDB database, e.g. mailhog
-MAILHOG_DB="mailhog"
+MAILHOG_MONGO_DB="mailhog"
 
 #  -mongo-uri="127.0.0.1:27017": MongoDB URI, e.g. 127.0.0.1:27017
-MAILHOG_URI="127.0.0.1:27017"
+MAILHOG_MONGO_URI="127.0.0.1:27017"
 
 #  -outgoing-smtp="": JSON file containing outgoing SMTP servers
 MAILHOG_OUTGOING_SMTP=""
