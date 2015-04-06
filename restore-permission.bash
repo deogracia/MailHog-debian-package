@@ -17,7 +17,6 @@ chmod 755 package/usr/
 chmod 755 package/usr/share/
 chmod 755 package/usr/share/doc/
 chmod 755 package/usr/share/doc/mailhog/
-chmod 644 package/usr/share/doc/mailhog/LICENSE.md
 chmod 644 package/usr/share/doc/mailhog/changelog.Debian.gz
 chmod 644 package/usr/share/doc/mailhog/copyright
 chmod 755 package/usr/share/lintian/
