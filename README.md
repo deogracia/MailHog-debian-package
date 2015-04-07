@@ -7,7 +7,6 @@ Use the bintray.com debian repository
 
 ```
 echo "deb https://dl.bintray.com/deogracia/mailhog precise contrib" | sudo tee -a /etc/apt/sources.list
-echo "deb-src https://dl.bintray.com/deogracia/mailhog precise contrib" | sudo tee -a /etc/apt/sources.list
 apt-get clean
 apt-get update
 apt-get install mailhog
