@@ -8,7 +8,7 @@ Use the bintray.com debian repository. I sign my package with the default [bintr
 ```
 echo "deb https://dl.bintray.com/deogracia/mailhog precise contrib" | sudo tee -a /etc/apt/sources.list
 wget https://bintray.com/user/downloadSubjectPublicKey?username=bintray -O bintray.asc
-sudo apt-key add
+sudo apt-key add bintray.asc
 sudo apt-get clean
 sudo apt-get update
 sudo apt-get install mailhog
