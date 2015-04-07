@@ -2,7 +2,18 @@
 
 I try to package https://github.com/mailhog/MailHog to Debian/Ubuntu OS
 
-## Build instructions
+## Easy setup ...
+Use the bintray.com debian repository
+
+```
+echo "deb https://dl.bintray.com/deogracia/mailhog precise contrib" | sudo tee -a /etc/apt/sources.list
+echo "deb-src https://dl.bintray.com/deogracia/mailhog precise contrib" | sudo tee -a /etc/apt/sources.list
+apt-get update
+apt-get install mailhog
+```
+I use the mailhog defaults
+
+## ... Or use the build instructions
 You need 
  * build-install
  * fakeroot
