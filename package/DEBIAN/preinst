@@ -16,6 +16,8 @@ set -e
 
 case "$1" in
     install|upgrade)
+      adduser --system --group --home /var/lib/mailhog mailhog
+
       if [ $2 ]; then
         invoke-rc.d mailhog stop || true
       fi

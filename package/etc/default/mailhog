@@ -6,6 +6,9 @@
 # This is a POSIX shell fragment
 #
 
+# Mailhog user
+MAILHOG_USER="mailhog"
+
 # Defaults values to MailHog
 #  -api-bind-addr="0.0.0.0:8025": HTTP bind interface and port for API, e.g. 0.0.0.0:8025 or just :8025
 MAILHOG_API_BIND_ADDR="0.0.0.0:8025"
@@ -68,4 +71,24 @@ MAILHOG_STORAGE="memory"
 MAILHOG_UI_BIND_ADDR="0.0.0.0:8025"
 
 # Additional options that are passed to the Daemon.
-DAEMON_OPTS=""
+DAEMON_OPTS="-api-bind-addr=$MAILHOG_API_BIND_ADDR \
+             -api-host=$MAILHOG_API_HOST \
+             -cors-origin=$MAILHOG_CORS_ORIGIN \
+             -hostname=$MAILHOG_HOSTNAME \
+             -invite-jim=$MAILHOG_INVITE_JIM \
+             -jim-accept=$MAILHOG_JIM_ACCEPT \
+             -jim-disconnect=$MAILHOG_JIM_DISCONNECT \
+             -jim-linkspeed-affect=$MAILHOG_JIM_LINKSPEED_AFFECT \
+             -jim-linkspeed-max=$MAILHOG_JIM_LINKSPEED_MAX \
+             -jim-linkspeed-min=$MAILHOG_JIM_LINKSPEED_MIN \
+             -jim-reject-auth=$MAILHOG_JIM_REJECT_AUTH \
+             -jim-reject-recipient=$MAILHOG_JIM_REJECT_RECIPIENT \
+             -jim-reject-sender=$MAILHOG_JIM_REJECT_SENDER \
+             -mongo-coll=$MAILHOG_MONGO_COLL \
+             -mongo-db=$MAILHOG_MONGO_DB \
+             -mongo-uri=$MAILHOG_MONGO_URI \
+             -outgoing-smtp=$MAILHOG_OUTGOING_SMTP \
+             -smtp-bind-addr=$MAILHOG_SMTP_BIND_ADDR \
+             -storage=$MAILHOG_STORAGE \
+             -ui-bind-addr=$MAILHOG_UI_BIND_ADDR \
+            "
