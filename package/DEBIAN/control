@@ -1,5 +1,5 @@
 Package: mailhog
-Version: 0.1.6-1
+Version: 0.1.6-1.0
 Section: utils
 Priority: extra
 Architecture: amd64
