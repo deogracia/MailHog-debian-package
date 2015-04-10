@@ -35,6 +35,9 @@ bash restore-permission.bash
 fakeroot dpkg-deb --build package
 
 mv package.deb mailhog-VERSION-amd64.deb
+
+apt-get install daemon
+dpkg -i mailhog-VERSION-amd64.deb
 ```
 
 ## Known errors
