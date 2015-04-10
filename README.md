@@ -1,6 +1,6 @@
 # MailHog-debian-package
 
-I try to package https://github.com/mailhog/MailHog to Debian/Ubuntu OS. But my first needis that it has to work on ubuntu 12.04 (aka ubuntu precise)
+I try to package https://github.com/mailhog/MailHog to Debian/Ubuntu OS. But my first need is that it has to work on ubuntu 12.04 (aka ubuntu precise)
 
 ## Easy setup ...
 Use the bintray.com debian repository. I sign my package with the default [bintray gpg key](https://bintray.com/user/downloadSubjectPublicKey?username=bintray)
