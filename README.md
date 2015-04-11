@@ -3,12 +3,10 @@
 I try to package https://github.com/mailhog/MailHog to Debian/Ubuntu OS. But my first need is that it has to work on ubuntu 12.04 (aka ubuntu precise)
 
 ## Easy setup ...
-Use the bintray.com debian repository. I sign my package with the default [bintray gpg key](https://bintray.com/user/downloadSubjectPublicKey?username=bintray)
 
 ```
-echo "deb https://dl.bintray.com/deogracia/mailhog precise contrib" | sudo tee -a /etc/apt/sources.list
-wget https://bintray.com/user/downloadSubjectPublicKey?username=bintray -O bintray.asc
-sudo apt-key add bintray.asc
+echo "deb http://repo.deogracia.xyz/debian precise contrib" | sudo tee -a /etc/apt/sources.list
+wget -O - http://repo.deogracia.xyz/repo.deogracia.xyz.gpg.key | sudo apt-key add -
 sudo apt-get clean
 sudo apt-get update
 sudo apt-get install mailhog
