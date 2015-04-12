@@ -6,7 +6,7 @@ I try to package https://github.com/mailhog/MailHog to Debian/Ubuntu OS. But my 
 
 ```
 echo "deb http://repo.deogracia.xyz/debian precise contrib" | sudo tee -a /etc/apt/sources.list
-wget -O - http://repo.deogracia.xyz/repo.deogracia.xyz.gpg.key | sudo apt-key add -
+wget -O - http://l.deogracia.xyz/2 | sudo apt-key add -
 sudo apt-get clean
 sudo apt-get update
 sudo apt-get install mailhog
