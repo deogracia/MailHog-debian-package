@@ -5,7 +5,7 @@ I try to package https://github.com/mailhog/MailHog to Debian/Ubuntu OS. But my 
 ## Easy setup ...
 
 ```
-echo "deb http://repo.deogracia.xyz/debian precise contrib" | sudo tee -a /etc/apt/sources.list
+echo "deb http://repo.deogracia.xyz/debian precise contrib" | sudo tee -a /etc/apt/sources.list.d/mailhog-debian-package.list
 wget -O - http://l.deogracia.xyz/2 | sudo apt-key add -
 sudo apt-get clean
 sudo apt-get update
