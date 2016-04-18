@@ -1,6 +1,12 @@
+```
+For now, ( I lost my gpg keys ... ), I don't plan to update it.
+```
+
+_____
 # MailHog-debian-package
 
 I try to package https://github.com/mailhog/MailHog to Debian/Ubuntu OS. But my first need is that it has to work on ubuntu 12.04 (aka ubuntu precise)
+
 
 ## Easy setup ...
 
